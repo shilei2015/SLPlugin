@@ -1,0 +1,16 @@
+PODS:
+  - SLPlugin (0.1.0)
+
+DEPENDENCIES:
+  - SLPlugin (from `../`)
+
+EXTERNAL SOURCES:
+  SLPlugin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SLPlugin: a5b320d45d0f565c463f293980f0967935899f12
+
+PODFILE CHECKSUM: 14a524dc5da6bf99cc32e60ce474071001f1e1dc
+
+COCOAPODS: 1.9.3

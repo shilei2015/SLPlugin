@@ -1,0 +1,6 @@
+framework module SLPlugin {
+  umbrella header "SLPlugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
