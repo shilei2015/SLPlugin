@@ -1,16 +1,43 @@
 PODS:
-  - SLPlugin (0.1.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - SLPlugin (0.0.1):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - SLPlugin (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   SLPlugin:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SLPlugin: a5b320d45d0f565c463f293980f0967935899f12
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  SLPlugin: b6b8a999dc6ec36bf0ebc0e94386ccf99028ab83
 
-PODFILE CHECKSUM: 14a524dc5da6bf99cc32e60ce474071001f1e1dc
+PODFILE CHECKSUM: 5ea230ea04e4a3ee7bf460d93fe7a4edb1fe47fc
 
 COCOAPODS: 1.9.3
